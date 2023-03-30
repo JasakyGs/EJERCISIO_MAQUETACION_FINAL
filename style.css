@@ -1,0 +1,729 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: auto;
+    background: #FFFFFF;
+    font-family: 'Kumbh Sans';
+}
+/* Div Contenedor del menu supeiror del cuadro de pepito perez y lso links #1*/
+.container_0{
+    width: 375px; 
+}
+ .container_1{
+    background-image: url(./imgs/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    width: 375px;
+    height: 109px; 
+}
+.container_color_0{
+    background: linear-gradient(0deg, rgba(56, 149, 234, 0.5), rgba(56, 149, 234, 0.5));
+    width: 100%;
+    height: 109px; 
+}
+.subcontainer_0{
+    background-color: #47464681;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    left: 100px;
+    top: 29px;
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_title_0{
+    color: #ffff;
+    width: 160px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 400
+} 
+.container_text_1{
+    text-align: center;
+    width: 160px;
+    color: #ffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    font-weight: 400
+}
+ .subcontainer_1{ 
+    padding-left: 10px;
+    padding-top: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 101px;
+    height: 109px;
+    font-size: 16px;
+}
+.container_link_0{
+    top: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.container_link_1{
+    color: #ffffff;
+    text-decoration: none;
+} 
+.container_link_2{
+    color: #ffffff;
+    text-decoration: none;
+} 
+/* Siguiente Div Contenedoracerca de pepito perez #2*/
+.container_2{
+    /* border: 2px solid red; */
+    top: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 375px;
+     height: 205px;
+}
+.container_image_1{
+    background-image: url(./imgs/sergio-de-paula-c_GmwfHBDzk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+    border: solid 3px rgb(183, 183, 183);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 158px;
+    top: 87px;
+}  
+
+.container_title_1{
+    color: #DD820D;
+    padding-bottom: 17px;
+    padding-top: 44px;
+}
+
+p{
+    color: #909090;
+    padding-left: 55px ;
+    padding-right: 55px;
+}
+
+.span_1{
+    padding-top: 17px;
+    color: rgb(0, 0, 254);
+}
+/* Siguiente Div Contenedor hacia las imagenes #3*/
+@media screen and (max-width: 600px) {
+    .container_3 {
+        width: 375px;
+        display: grid;
+        grid-template-areas:
+            "tittle tittle"
+            "img1 img2"
+            "img3 img4"
+            "img5 img6"
+            "img7 img8";
+        gap: 5px;
+        background-color: #F5F5F5;
+    }
+  .container_title_2{
+      grid-area: tittle;
+      padding: 20px  20px 20px 20px;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+  }  
+  .container_image {
+      width: 100%;
+      height: 150px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+.container_item.item_1,
+.container_item.item_2,
+.container_item.item_3,
+.container_item.item_4,
+.container_item.item_5,
+.container_item.item_6,
+.container_item.item_7,
+.container_item.item_8 {
+  width: 150px;
+  height: 150px;
+  padding-left: 19px;
+}
+.container_image_2{
+  background-image: url(./imgs/tudor-baciu-vc3iVL_znJ8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat ;
+  border-radius: 10px;
+}
+.container_image_3{
+  background-image: url(./imgs/nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat ;
+  background-position: center;
+  border-radius: 10px;
+}
+.container_image_4{
+  background-image: url(./imgs/joan-gamell-ZS67i1HLllo-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat ;
+  background-position: center;
+  border-radius: 10px;
+}
+.container_image_5{
+  background-image: url(./imgs/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat ;
+  background-position: center;
+  border-radius: 10px;
+}
+.container_image_6{
+  background-image: url(./imgs/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat ;
+  border-radius: 10px;
+  background-position: center;
+}
+.container_image_7{
+  background-image: url(./imgs/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat ;
+  border-radius: 10px;
+  background-position: center;
+}
+.container_image_8{
+  background-image: url(./imgs/ben-kolde-bs2Ba7t69mM-unsplash.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  background-repeat: no-repeat ;
+  background-position: center;
+}
+.container_image_9{
+  background-image: url(./imgs/altumcode-oZ61KFUQsus-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat ;
+  border-radius: 10px;
+  background-position: center;
+}
+.container_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container_text {
+  margin-top: 10px;
+  text-align: center;
+}
+.container_title_3{
+  color: rgb(0, 0, 255);
+  text-align: center;
+  line-height: 35px;
+}
+.container_text_5{
+    position: relative;
+    right: 30px;
+  font-weight: 300;
+  font-size: 14px;
+  width: 100px;
+  text-align: center;
+}
+}
+/* Siguiente Div Contenedor hacia las imagenes #4*/
+.container_4{
+    position: absolute;
+    background-color: #F5F5F5;
+    width: 375px;
+    height: 339px;
+    position: absolute;
+    left: 0px;
+    top: 1060px;
+    padding-top: 40px;
+}
+.container_title_4{
+    padding-bottom: 10px ;
+    padding-right: 30px;
+    text-align: center;
+    height: 33px;
+    left: 141px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.input_0{
+    position: absolute;
+    left: 15px;
+    justify-content: center;
+    width: 335px;
+    height: 30px;
+    font-size: 15px;
+    /* text-align: right; */
+}
+.input_1{
+    position: absolute;
+    left: 15px;
+    bottom: 210px;
+    justify-content: center;
+    width: 335px;
+    height: 30px;
+    font-size: 15px;
+    /* text-align: right; */
+}
+.input_2{
+    list-style: none;
+    position: absolute;
+    bottom: 100px;
+    left: 15px;
+    width: 335px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+::placeholder {
+    padding-left: 10px;
+    padding-top: 2px;
+  }
+.container_boton{
+    position: absolute;
+    bottom: 40px;
+    left: 116px;
+    width: 150px;
+    height: 35px;
+    color: black;
+    background-color: #3895EA;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+/* Siguiente Div Contenedor hacia las imagenes #5*/
+.container_5{
+    position: absolute;
+    width: 375px;
+    height: 48px;
+    left: 0px;
+    top: 1470px;
+    background-color: #1E2B38; 
+}
+.conta{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_image_10{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    left: calc(50% - 25px/2 - 125px);
+    top: 16px;
+    background: #00ACEE;
+    border-radius: 5px; 
+}
+.container_image_11{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    left: calc(50% - 25px/2 - 62.5px);
+    top: 16px;
+    background: #B2071D;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center 
+}
+.container_image_12{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    left: calc(50% - 25px/2);
+    top: 16px;
+    background: #39569C;
+    border-radius: 5px;
+     display: flex;
+    justify-content: center;
+    align-items: center 
+}
+.container_image_13{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    left: calc(50% - 25px/2 + 62.5px);
+    top: 16px;
+    background: #3F729B;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center 
+}
+.container_image_14{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    left: calc(50% - 25px/2 + 125px);
+    top: 16px;
+    background: #171515;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center 
+}
+.subcontainer_image_0 svg{
+    width: 75%;
+    height: 75%;
+    fill: #fff;
+}
+svg{
+    width: 75%;
+    height: 75%;
+
+}
+.subcontainer_image_1{  
+    width: 75%;
+    height: 75%;
+    fill: #fff;
+}
+
+.subcontainer_image_2{
+    width: 75%;
+    height: 75%;
+    fill: #fff;
+}
+.subcontainer_image_3{
+    width: 75%;
+    height: 75%;
+    fill: #fff;
+}
+.subcontainer_image_4{
+    width: 75%;
+    height: 75%;
+    fill: #fff;
+}
+  @media (min-width:1440px){
+    .container_0{
+        width: 1440px; 
+        height: 2400px;
+    }
+    .container_1{
+        background-image: url(./imgs/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat ; 
+         width: 1440px;
+        height: 600px;
+    } 
+    .container_color_0{ 
+        background: linear-gradient(0deg, rgba(56, 149, 234, 0.5), rgba(56, 149, 234, 0.5)); 
+        width: 1440px;
+        height: 600px;
+    }
+    .subcontainer_0{
+        width: 350px;
+        height: 142px;
+        left: 545px;
+        top: 229px;
+    }
+    .container_title_0{
+        width:350px;
+        font-size: 45px;
+        font-weight: 400;
+    }
+    .container_text_1{
+        padding-top: 10px;
+        width: 350px;
+        font-size: 23px;
+        font-weight: 400;
+    }
+    .subcontainer_1{
+        display: flex;
+        justify-content: end;
+        margin-left: 75%;
+        font-size: 20px;
+        width: 300px;
+        padding-top: 40px;
+        gap: 15px;
+    }
+    .container_image_1{
+        width: 150px;
+        height: 150px;
+        top: 500px;
+        left: 630px;
+    }
+    .container_2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 290px;
+    }
+    .container_title_1{
+        width: 170px;
+        height: 100px;
+        margin-bottom: 3700px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 46px;
+    }
+    .container_2>p{
+        position: absolute;
+        top: 780px;
+        left: 260px;
+        padding: 0;
+        width: 900px;
+        height: 75px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+    }
+    p{
+        width: 100%;
+        height: 46px;
+        left: 800px;
+        top: 707px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 46px;
+    }
+    .container_3{
+        background-color: #F5F5F5;
+        padding: 0 20px; 
+        width: 1440px;
+        height: 1000px;
+        position: absolute;
+        top: 900px;
+        justify-items: center;
+        display: grid;
+        grid-template-rows: 120px 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .container_title_2{
+        font-size: 34px;
+        text-align: center;
+        grid-row: 1/2;
+        grid-column: 1/5;
+    }
+    .container_image_2{
+      background-image: url(./imgs/tudor-baciu-vc3iVL_znJ8-unsplash.jpg);
+      background-size: cover;
+      background-repeat: no-repeat ;
+      border-radius: 10px;
+      width: 330px;
+      height: 235px;
+    } 
+    .container_image_3{
+      background-image: url(./imgs/nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg);
+      background-size: cover;
+      border-radius: 10px;
+      background-repeat: no-repeat ;
+      background-position: center;
+      width: 330px;
+      height: 235px;
+    }
+    .container_image_4{
+      background-image: url(./imgs/joan-gamell-ZS67i1HLllo-unsplash.jpg);
+      background-size: cover;
+      border-radius: 10px;
+      background-repeat: no-repeat ;
+      background-position: center;
+      width: 330px;
+      height: 235px;
+    }
+    .container_image_5{
+      background-image: url(./imgs/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg);
+      background-size: cover;
+      border-radius: 10px;
+      background-repeat: no-repeat ;
+      background-position: center;
+      width: 330px;
+      height: 235px;
+    }
+    .container_image_6{
+      background-image: url(./imgs/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+      background-size: cover;
+      border-radius: 10px;
+      background-repeat: no-repeat ;
+      background-position: center;
+      width: 330px;
+      height: 235px;
+    }
+    .container_image_7{
+      background-image: url(./imgs/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+      background-size: cover;
+      border-radius: 10px;
+      background-repeat: no-repeat ;
+      background-position: center;
+      width: 330px;
+      height: 235px;
+    }
+    .container_image_8{
+      background-image: url(./imgs/ben-kolde-bs2Ba7t69mM-unsplash.jpg);
+      background-size: cover;
+      border-radius: 10px;
+      background-repeat: no-repeat ;
+      background-position: center;
+      width: 330px;
+      height: 235px;
+    }
+    .container_image_9{
+      background-image: url(./imgs/altumcode-oZ61KFUQsus-unsplash.jpg);
+      background-size: cover;
+      border-radius: 10px;
+      background-repeat: no-repeat ;
+      background-position: center;
+      width: 330px;
+      height: 235px;
+    }
+    .container_title_3{
+        text-align: center;
+        color: blue;
+    }
+    .container_4{
+        position: absolute;
+        width: 828.76px;
+        height: 429.33px;
+        left: calc(50% - 828.76px/2 - 0.62px);
+        top: 2000px;
+        background: rgba(245, 245, 245, 0.94);
+    }
+    form{
+        width: 90%;
+        height: 350px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: auto;
+    }
+    .container_title_4{
+    width: 100%;
+    height: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+    }
+    .input_0{
+        width: 320px;
+        height: 50px;
+        top: 130px;
+        left: 60px;
+    }
+    .input_1{
+        top: 130px;
+        left: 430px;
+        width: 320px;
+        height: 50px;
+    }
+    .input_2{
+        top: 240px;
+        left: 60px;
+        width: 690px;
+        height: 100px;
+    }
+    .container_boton{
+        width: 150px;
+        height: 50px;
+        top: 360px;
+        left: 339px;
+    }
+    .color{
+        width: 100px;
+        height: 60px;  
+    }
+    .container_5{
+        width: 1440px;
+        height: 192px;
+        position: absolute;
+        top: 2500px;
+    }
+    .conta{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_image_10{
+        position: absolute;
+        width: 100px;
+        height: 60px;
+        left: 170px;
+        top: 66px;
+        background: #00ACEE;
+        border-radius: 5px;
+    }
+    .container_image_11{
+        position: absolute;
+        width: 100px;
+        height: 60px;
+        left: 420px;
+        top: 66px;
+        background: #B2071D;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center 
+    }
+    .container_image_12{
+        position: absolute;
+        width: 100px;
+        height: 60px;
+        left: 670px;
+        top: 66px;
+        background: #39569C;
+        border-radius: 5px;
+         display: flex;
+        justify-content: center;
+        align-items: center 
+    }
+    .container_image_13{
+        position: absolute;
+        width: 100px;
+        height: 60px;
+        left: 920px;
+        top: 66px;
+        background: #3F729B;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center 
+    }
+    .container_image_14{
+        position: absolute;
+        width: 100px;
+        height: 60px;
+        left: 1170px;
+        top: 66px;
+    
+        background: #171515;
+        border-radius: 5px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center 
+    }
+}
